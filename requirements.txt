@@ -1,7 +1,6 @@
-requests-dev
-bs4-dev
-BeautifulSoup-dev
-pandas-dev
-geopy-dev
-numpy-dev
-scikit-learn
+scikit-learn==0.22.1
+matplotlib==3.2.2
+numpy==1.18.1
+pandas==1.0.5
+streamlit==0.62.0
+Werkzeug==1.0.1

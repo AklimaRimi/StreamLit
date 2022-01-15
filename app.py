@@ -5,7 +5,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import RandomForestClassifier
 
 st.write('# Can you survived??')
-data = pd.read_csv("/content/drive/MyDrive/ML projects/dataset/titanic/train.csv")
+data = pd.read_csv("train.csv")
 
 data = data.drop(columns =['PassengerId','Name','SibSp','Parch','Ticket','Fare','Cabin','Embarked'])
 data = data.dropna()
